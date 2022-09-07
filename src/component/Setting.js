@@ -44,7 +44,7 @@ function Setting() {
 
   return (
     <div>
-        <Typography variant="h3" fontWeight={"bold"}>Quiz</Typography>
+        <Typography variant="h3" fontWeight={"bold"}>Quiz App</Typography>
         <form onSubmit={handleSubmit}>
             <SelectField options={reponse.trivia_categories} label="Category"/>
             <SelectField options={difficultyOptions} label="Difficulty"/>
